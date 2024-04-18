@@ -1,0 +1,18 @@
+{
+    "name": "victorwesterlund/globalsnapshot",
+    "description": "Capture and restore the state of all PHP superglobals.",
+    "type": "library",
+    "license": "The-Unlicense",
+    "authors": [
+        {
+            "name": "Victor Westerlund",
+            "email": "victor.vesterlund@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "victorwesterlund\\": "src/"
+        }
+    }
+}
