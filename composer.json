@@ -2,7 +2,7 @@
     "name": "victorwesterlund/globalsnapshot",
     "description": "Capture and restore the state of all PHP superglobals.",
     "type": "library",
-    "license": "The-Unlicense",
+    "license": "Unlicense",
     "authors": [
         {
             "name": "Victor Westerlund",
