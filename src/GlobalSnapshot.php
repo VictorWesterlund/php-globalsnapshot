@@ -22,6 +22,8 @@
         private array $argv;
         private ?array $__composer_autoload_files; // Native support for composer
 
+        public bool $captured = false;
+
         public function __construct() {}
 
         // Wipe all superglobals
@@ -42,6 +44,8 @@
 
 		// Store current state of superglobals
         public function capture() {
+            $this->captured = true;
+            
             foreach (array_keys($GLOBALS) as $global) {
                 $this->{$global} = $GLOBALS[$global];
             }
